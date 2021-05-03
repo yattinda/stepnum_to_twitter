@@ -7,6 +7,9 @@ verify_ssl = true
 
 [packages]
 twitter = "*"
+requests = "*"
+requests-oauthlib = "*"
+fitbit = "*"
 
 [requires]
 python_version = "3.8"
