@@ -6,7 +6,7 @@ import os
 import random
 from datetime import datetime, date, timedelta
 import fitbit
-import key.py
+from key import fitbit_client
 
 def puttweet():
     yestaday = datetime.strftime(datetime.today() - timedelta(days=1), '%Y-%m-%d')
