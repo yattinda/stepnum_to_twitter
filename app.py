@@ -1,9 +1,6 @@
 #coding; utf-8
 
-from requests_oauthlib import OAuth1Session
 import json
-import os
-import random
 from datetime import datetime, date, timedelta
 import fitbit
 from key import fitbit_client
