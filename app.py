@@ -13,11 +13,5 @@ def puttweet():
 
     steps = fitbit_client.activities(date=yestaday)["summary"]["steps"]
     # print(steps)
-    #
-    # tweets = []
-    # randomtweet = tweets[random.randrange(len(tweets))]
-    # params = {"status": randomtweet}
-    # req = twitter.post("https://api.twitter.com/1.1/statuses/update.json", params = params)
-
 if __name__ == '__main__':
     puttweet()
